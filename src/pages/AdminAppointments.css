@@ -1,0 +1,70 @@
+.admin-appt-page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.admin-appt-card {
+  width: 520px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.admin-title {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+
+.admin-appt-item {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-appt-details p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.admin-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.complete-btn {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.complete-btn:hover {
+  background-color: #1b5e20;
+}
+
+.cancel-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #b71c1c;
+}
+
+.empty-text {
+  text-align: center;
+  color: #555;
+}

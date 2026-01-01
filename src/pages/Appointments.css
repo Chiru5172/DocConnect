@@ -1,0 +1,51 @@
+.appointments-page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.appointments-card {
+  width: 450px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.appointments-title {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+
+.appointment-item {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment-details p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.cancel-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #b71c1c;
+}
+
+.empty-text {
+  text-align: center;
+  color: #555;
+}
